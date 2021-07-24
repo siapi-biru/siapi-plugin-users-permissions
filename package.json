@@ -1,0 +1,54 @@
+{
+  "name": "siapi-plugin-users-permissions",
+  "version": "3.6.5",
+  "description": "Protect your API with a full-authentication process based on JWT",
+  "siapi": {
+    "name": "Roles & Permissions",
+    "icon": "users",
+    "description": "users-permissions.plugin.description",
+    "required": true
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "dependencies": {
+    "@buffetjs/core": "3.3.8",
+    "@buffetjs/custom": "3.3.8",
+    "@buffetjs/hooks": "3.3.8",
+    "@buffetjs/icons": "3.3.8",
+    "@buffetjs/styles": "3.3.8",
+    "@buffetjs/utils": "3.3.8",
+    "@purest/providers": "^1.0.2",
+    "bcryptjs": "^2.4.3",
+    "grant-koa": "5.4.8",
+    "immutable": "^3.8.2",
+    "jsonwebtoken": "^8.1.0",
+    "koa2-ratelimit": "^0.9.0",
+    "lodash": "4.17.21",
+    "purest": "3.1.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.9.0",
+    "react-intl": "4.5.0",
+    "react-redux": "7.2.3",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.0.0",
+    "reactstrap": "8.4.1",
+    "redux-saga": "^0.16.0",
+    "request": "^2.83.0",
+    "siapi-helper-plugin": "github:siapi-biru/siapi-helper-plugin#v3.6.5",
+    "siapi-utils": "github:siapi-biru/siapi-utils#v3.6.5",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "koa": "^2.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siapi-biru/siapi.git"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53"
+}
